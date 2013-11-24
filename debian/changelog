@@ -1,5 +1,5 @@
-libxshmfence (1.0-1) UNRELEASED; urgency=low
+libxshmfence (1.0-1) unstable; urgency=low
 
   * Initial release.
 
- -- Julien Cristau <jcristau@debian.org>  Sun, 24 Nov 2013 15:04:17 +0100
+ -- Julien Cristau <jcristau@debian.org>  Sun, 24 Nov 2013 15:20:54 +0100
