@@ -12,7 +12,7 @@ Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxshmfence
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxshmfence.git
 
 Package: libxshmfence1
-Architecture: linux-any
+Architecture: any
 Pre-Depends:
  ${misc:Pre-Depends},
 Depends:
@@ -26,7 +26,7 @@ Description: X shared memory fences - shared library
  This package contains the xshmfence shared library.
 
 Package: libxshmfence-dev
-Architecture: linux-any
+Architecture: any
 Depends:
  libxshmfence1 (= ${binary:Version}),
  ${misc:Depends},
