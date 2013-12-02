@@ -3,6 +3,7 @@ libxshmfence (1.1-1) UNRELEASED; urgency=low
   * New upstream release.
   * Add symbols file.
   * libxshmfence is now built for any arch.
+  * Add missing build-deps.
 
  -- Maarten Lankhorst <maarten.lankhorst@ubuntu.com>  Mon, 02 Dec 2013 11:07:04 +0100
 
