@@ -1,3 +1,10 @@
+libxshmfence (1.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Add symbols file.
+
+ -- Maarten Lankhorst <maarten.lankhorst@ubuntu.com>  Mon, 02 Dec 2013 11:07:04 +0100
+
 libxshmfence (1.0-1) unstable; urgency=low
 
   * Initial release.
