@@ -1,10 +1,10 @@
-libxshmfence (1.1-1) UNRELEASED; urgency=low
+libxshmfence (1.1-1) unstable; urgency=low
 
   [ Maarten Lankhorst ]
   * New upstream release.
+    - add build-deps on pkg-config and x11proto-core-dev
   * Add symbols file.
   * libxshmfence is now built for any arch.
-  * Add missing build-deps.
 
   [ Julien Cristau ]
   * Allow parallel builds.
@@ -12,7 +12,7 @@ libxshmfence (1.1-1) UNRELEASED; urgency=low
   * Force shared-memory-dir to /tmp.  My schroots don't have world-writable
     /run/shm so the test fails.
 
- -- Maarten Lankhorst <maarten.lankhorst@ubuntu.com>  Mon, 02 Dec 2013 11:07:04 +0100
+ -- Julien Cristau <jcristau@debian.org>  Tue, 03 Dec 2013 20:28:43 +0100
 
 libxshmfence (1.0-1) unstable; urgency=low
 
