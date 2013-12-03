@@ -8,6 +8,7 @@ libxshmfence (1.1-1) UNRELEASED; urgency=low
 
   [ Julien Cristau ]
   * Allow parallel builds.
+  * Show test log on error, and disable silent build rules.
 
  -- Maarten Lankhorst <maarten.lankhorst@ubuntu.com>  Mon, 02 Dec 2013 11:07:04 +0100
 
