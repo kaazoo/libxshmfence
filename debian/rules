@@ -4,7 +4,7 @@
 	dh $@ --with quilt,autoreconf --builddirectory=build/ --parallel
 
 override_dh_makeshlibs:
-	dh_makeshlibs -- -c4
+	dh_makeshlibs --add-udeb=libxshmfence1-udeb -- -c4
 
 override_dh_install:
 	dh_install --fail-missing -X.la

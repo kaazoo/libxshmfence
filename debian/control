@@ -39,3 +39,13 @@ Description: X shared memory fences - development files
  synchronization between the X server and direct-rendering clients.
  .
  This package contains the xshmfence development files.
+
+Package: libxshmfence1-udeb
+XC-Package-Type: udeb
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+Section: debian-installer
+Description: X shared memory fences
+ This is a udeb, or a microdeb, for the debian-installer.

@@ -1,3 +1,9 @@
+libxshmfence (1.1-2) UNRELEASED; urgency=medium
+
+  * Add libxshmfence1-udeb.
+
+ -- Julien Cristau <jcristau@debian.org>  Thu, 12 Dec 2013 11:23:14 +0100
+
 libxshmfence (1.1-1) unstable; urgency=low
 
   [ Maarten Lankhorst ]
