@@ -15,7 +15,7 @@ Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxshmfence
 Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxshmfence.git
 
 Package: libxshmfence1
-Architecture: any
+Architecture: linux-any kfreebsd-any
 Pre-Depends:
  ${misc:Pre-Depends},
 Depends:
@@ -29,7 +29,7 @@ Description: X shared memory fences - shared library
  This package contains the xshmfence shared library.
 
 Package: libxshmfence-dev
-Architecture: any
+Architecture: linux-any kfreebsd-any
 Depends:
  libxshmfence1 (= ${binary:Version}),
  ${misc:Depends},
@@ -43,7 +43,7 @@ Description: X shared memory fences - development files
 
 Package: libxshmfence1-udeb
 XC-Package-Type: udeb
-Architecture: any
+Architecture: linux-any kfreebsd-any
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
