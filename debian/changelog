@@ -1,6 +1,7 @@
 libxshmfence (1.1-3) UNRELEASED; urgency=medium
 
   * Exclude hurd from arch list.  They don't support PTHREAD_PROCESS_SHARED.
+  * Use /dev/shm for shared memory dir (closes: #747893).
 
  -- Julien Cristau <jcristau@debian.org>  Fri, 13 Dec 2013 22:45:36 +0100
 
