@@ -1,6 +1,7 @@
 libxshmfence (1.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Let uscan check upstream tarball signatures.
 
  -- Julien Cristau <jcristau@debian.org>  Mon, 19 Jan 2015 00:15:04 +0100
 
