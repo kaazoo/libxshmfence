@@ -11,8 +11,8 @@ Build-Depends:
  x11proto-core-dev,
  pkg-config,
 Standards-Version: 3.9.4
-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxshmfence
-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxshmfence.git
+Vcs-Git: https://salsa.debian.org/xorg-team/lib/libxshmfence.git
+Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libxshmfence
 
 Package: libxshmfence1
 Architecture: linux-any kfreebsd-any
