@@ -1,6 +1,7 @@
 libxshmfence (1.2-2) UNRELEASED; urgency=medium
 
   * Use https in watch file.
+  * Update Vcs-* control fields for move to salsa.
 
  -- Julien Cristau <jcristau@debian.org>  Sun, 18 Mar 2018 16:49:29 +0100
 
