@@ -7,7 +7,7 @@ Build-Depends:
  dh-autoreconf,
  quilt,
  xutils-dev,
- x11proto-core-dev,
+ x11proto-dev,
  pkg-config,
 Standards-Version: 3.9.4
 Vcs-Git: https://salsa.debian.org/xorg-team/lib/libxshmfence.git
