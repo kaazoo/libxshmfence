@@ -48,7 +48,7 @@ LINT_FLAGS="${LINT_FLAGS} ${FONTENC_CFLAGS}"
 
 		  
 dnl
-dnl Locate a suitable tmp file system for creating shared memeory files
+dnl Locate a suitable tmp file system for creating shared memory files
 dnl
 
 AC_ARG_ENABLE(futex,	AS_HELP_STRING([--enable-futex], [Enable futexes (default: auto)]),
