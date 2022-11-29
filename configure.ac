@@ -47,7 +47,9 @@ dnl Allow checking code with lint, sparse, etc.
 XORG_WITH_LINT
 LINT_FLAGS="${LINT_FLAGS} ${FONTENC_CFLAGS}"
 
-		  
+# Checks for typedefs, structures, and compiler characteristics.
+AC_SYS_LARGEFILE
+
 dnl
 dnl Locate a suitable tmp file system for creating shared memory files
 dnl
