@@ -1,12 +1,13 @@
-libxshmfence (1.3.2-1) UNRELEASED; urgency=medium
+libxshmfence (1.3.2-1) unstable; urgency=medium
 
   [ Timo Aaltonen ]
   * control: Migrate to x11proto-dev.
 
   [ Marius Gripsgard ]
   * New upstream release v1.3.2
+  * debian/control: Set homepage to upstream git repo
 
- -- Marius Gripsgard <marius@ubports.com>  Wed, 25 Jan 2023 16:15:21 +0100
+ -- Marius Gripsgard <marius@ubports.com>  Wed, 25 Jan 2023 16:19:00 +0100
 
 libxshmfence (1.3-1) unstable; urgency=medium
 
