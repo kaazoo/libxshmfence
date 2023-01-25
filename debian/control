@@ -12,6 +12,7 @@ Build-Depends:
 Standards-Version: 3.9.4
 Vcs-Git: https://salsa.debian.org/xorg-team/lib/libxshmfence.git
 Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libxshmfence
+Homepage: https://gitlab.freedesktop.org/xorg/lib/libxshmfence
 
 Package: libxshmfence1
 Architecture: linux-any kfreebsd-any
