@@ -28,14 +28,18 @@ AC_INIT([libxshmfence], [1.3.2],
         [libxshmfence])
 AC_CONFIG_SRCDIR([Makefile.am])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIRS([m4])
 
+# Set common system defines for POSIX extensions, such as _GNU_SOURCE
+# Must be called before any macros that run the compiler (like LT_INIT
+# or XORG_DEFAULT_OPTIONS) to avoid autoconf errors.
 AC_USE_SYSTEM_EXTENSIONS
 
 # Initialize Automake
 AM_INIT_AUTOMAKE([foreign dist-xz])
 
 # Initialize libtool
-AC_PROG_LIBTOOL
+LT_INIT
 
 # Require xorg-macros: XORG_DEFAULT_OPTIONS, XORG_WITH_LINT
 m4_ifndef([XORG_MACROS_VERSION],
