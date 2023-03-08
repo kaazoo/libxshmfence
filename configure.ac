@@ -104,7 +104,7 @@ AC_CHECK_DECLS([__NR_memfd_create], [], [], [[#include <asm/unistd.h>]])
 
 AC_CHECK_HEADERS([sys/memfd.h], [AC_DEFINE([HAVE_MEMFD_H], 1, [Has sys/memfd.h header])])
 
-AC_ARG_ENABLE(visibility,     AC_HELP_STRING([--enable-visibility], [Enable symbol visibility (default: auto)]),
+AC_ARG_ENABLE(visibility,     AS_HELP_STRING([--enable-visibility], [Enable symbol visibility (default: auto)]),
 				[SYMBOL_VISIBILITY=$enableval],
 				[SYMBOL_VISIBILITY=auto])
 
