@@ -124,15 +124,15 @@ if test x$SYMBOL_VISIBILITY != xno; then
 	fi
     fi
     if test x$have_visibility != xno; then
-	AC_TRY_COMPILE(
-	    [#include <X11/Xfuncproto.h>
+	AC_COMPILE_IFELSE([AC_LANG_PROGRAM(
+           [[#include <X11/Xfuncproto.h>
 	     extern _X_HIDDEN int hidden_int;
 	     extern _X_EXPORT int public_int;
 	     extern _X_HIDDEN int hidden_int_func(void);
-	     extern _X_EXPORT int public_int_func(void);],
-	    [],
-	    have_visibility=yes,
-	    have_visibility=no)
+	     extern _X_EXPORT int public_int_func(void);]],
+            [[]])],
+           [have_visibility=yes],
+           [have_visibility=no])
     fi
     AC_MSG_RESULT([$have_visibility])
     if test x$have_visibility != xno; then
